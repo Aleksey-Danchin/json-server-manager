@@ -1,0 +1,17 @@
+.palet {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	background-color: #dbe3ff;
+}
+
+.palet .paletItem {
+	margin: 7px;
+	padding: 5px;
+	border: 1px solid black;
+	text-align: center;
+	word-wrap: break-word;
+	font-family: revert;
+	cursor: pointer;
+}
