@@ -6,8 +6,8 @@
 	"type": "module",
 	"repository": "github:Aleksey-Danchin/json-server-manager",
 	"homepage": "https://github.com/Aleksey-Danchin/json-server-manager",
-  "url" : "https://github.com/Aleksey-Danchin/json-server-manager/issues",
-  "author": "Aleksey Danchin <aleksey.danchin@gmail.com> (https://constcode.ru)",
+	"url" : "https://github.com/Aleksey-Danchin/json-server-manager/issues",
+	"author": "Aleksey Danchin <aleksey.danchin@gmail.com> (https://constcode.ru)",
 	"funding": "https://constcode.ru/#rec255942545",
 	"scripts": {
 		"start": "node ./index.js",
