@@ -2,17 +2,11 @@ import express from "express";
 const app = express.Router();
 
 app.get("/users", (req, res) => {
-  res.status(200).send({
-    success: true,
-    users: []
-  });
+  res.status(200).send([ /* ARRAY OF USERS */]);
 });
 
 app.get("/users/:id", (req, res) => {
-  res.status(200).send({
-    success: true,
-    user: {}
-  });
+  res.status(200).send({ /* USER DATA */});
 });
 
 app.post("/users", (req, res) => {
