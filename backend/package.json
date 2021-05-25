@@ -1,12 +1,23 @@
 {
+	"main": "index.js",
+	"description": "JSON Server Manager for cool prommers",
+	"name": "json-server-manager",
+	"version": "0.3",
 	"type": "module",
+	"repository": "github:Aleksey-Danchin/json-server-manager",
+	"homepage": "https://github.com/Aleksey-Danchin/json-server-manager",
+  "url" : "https://github.com/Aleksey-Danchin/json-server-manager/issues",
+  "author": "Aleksey Danchin <aleksey.danchin@gmail.com> (https://constcode.ru/)",
+	"funding": "https://constcode.ru/#rec255942545",
+	"scripts": {
+		"start": "node ./index.js",
+		"dev": "nodemon ./index.js",
+	},
 	"dependencies": {
 		"express": "^4.17.1",
-		"forever": "^3.0.4",
-		"json-server": "^0.16.3",
-		"nodemon": "^2.0.7"
+		"json-server": "^0.16.3"
 	},
-	"scripts": {
-		"nodemon": "nodemon ./index.js"
+	"devDependencies": {
+		"nodemon": "^2.0.7"
 	}
 }
