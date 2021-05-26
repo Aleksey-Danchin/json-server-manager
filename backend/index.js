@@ -1,9 +1,7 @@
 import app from "./app.js";
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
-	console.log(`Example app listening at http://localhost:${port}`);
+	console.log(`[CONSTCODE] JSON Server Manager server started at http://localhost:${port}`);
 });
-
-console.log(process.env.NODE_ENV);

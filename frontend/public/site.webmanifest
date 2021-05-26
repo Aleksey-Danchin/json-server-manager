@@ -1,0 +1,22 @@
+{
+    "name": "JSON Server Manager",
+    "short_name": "JSM",
+    "description": "JSON Server Manager for cool prommers",
+    "author": "Aleksey Danchin",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "display": "standalone",
+    "start_url": ".",
+    "theme_color": "#209cee",
+    "background_color": "#209cee"
+}
