@@ -16,10 +16,8 @@ app.use(express.static('./public')); // serve static files from public folder | 
 // TODO: express-rate-limit, express-slow-down
 
 // ROUTES
-import usersRouter from "./routes/users.js"
-import keysRouter from "./routes/keys.js"
-app.use(usersRouter);
-app.use(keysRouter);
+import { promises as fs } from "fs";
+fs.readdir("./routes").then(routes => routes.forEach(route => app.use(require(`./api/${route}`))));
 
 // DEFAULT ROUTES
 app.get("/", (req, res) => {
